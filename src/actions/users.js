@@ -1,6 +1,6 @@
 export const addUser = (user) => {
   return {
-    type: 'ADD_USER', 
-    user
+    type: 'ADD_USER',
+    user: user
   };
 }
